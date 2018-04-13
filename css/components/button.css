@@ -1,0 +1,28 @@
+.btn-outline {
+  color: #f14e84;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f14e84;
+}
+
+.btn-outline:hover, 
+.btn-outline:active, 
+.btn-outline:focus {
+  background-color: #f14e84 !important;
+  border-color: #f14e84 !important;
+  color: #fff !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f14e84;
+  border-color: #f14e84;
+}
+
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary:focus {
+  color: #fff !important;
+  background-color: #f14e84 !important;
+  border-color: #f14e84 !important;
+}

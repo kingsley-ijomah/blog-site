@@ -1,0 +1,13 @@
+.tags {
+  background-color: #f4f4f4;
+  color: #999;
+  padding: 5px 14px;
+  text-transform: capitalize;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.tags:hover {
+  background-color: #f14e84;
+  color: #fff;
+}
