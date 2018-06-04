@@ -53,8 +53,9 @@
 
             <div class="col-md-6 col-sm-11 col-11 py-2">
               <form class="form-inline my-2 my-lg-0 float-right">
-                <input class="form-control mr-sm-2 w-auto" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline my-sm-0" type="submit">Search</button>
+                <label class="sr-only" for="search">Search</label>
+                <input class="form-control mr-sm-2 w-auto" id="search" type="search" placeholder="Enter search term..." aria-label="Search">
+                <input class="btn btn-outline my-sm-0" type="submit" value="Search" />
               </form>
             </div>
           </div>
@@ -159,9 +160,11 @@
             </p>
             <div class="form-group">
               <form>
-                <input type="text" class="form-control small-field mb-2" placeholder="Enter fullname">
-                <input type="email" class="form-control small-field mb-2" placeholder="Enter email">
-                <button type="submit" class="btn btn-sm btn-block btn-primary">Subscribe Today!</button>
+                <label class="sr-only" for="subscription-name">Full Name</label>
+                <input type="text" id="subscription-name" class="form-control small-field mb-2" placeholder="Enter full name">
+                <label class="sr-only" for="subscription-email">Email</label>
+                <input type="email" id="subscription-email" class="form-control small-field mb-2" placeholder="Enter email">
+                <input type="submit" class="btn btn-sm btn-block btn-primary" value="Subscribe Today!" />
               </form>
             </div>
           </div>
